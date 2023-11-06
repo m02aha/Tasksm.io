@@ -13,9 +13,12 @@
 A responsive design of a 4-page productivity dashboard website for developers <br>
 a main page showing tasks and progress, a files page, a projects page, and a settings page. 
 ## built with:
--HTML markup
--css5
--java script for design interaction
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- java script 
 
 
 ## What I learned :grinning:
