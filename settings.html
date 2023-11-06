@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+    <title>Tasks.io | your hub</title>
+</head>
+
+<body>
+
+    <div class="page d-flex">
+        <aside class=" bg-w " style="width: 240px;">
+            <h3 class="logo  ">
+             <span class="bg-red s-30 c-w d-block r-50">T</span>
+             <span class="name hide-mobile"><a href="index.html"> Tasks.io</a></span>
+                </h3>
+                <div class="box d-flex bg-b r-8 ">
+                 <p class="hide-mobile ">Create New Task</p>
+                 <span class=" d-block circle c-w bg-lb  ">+</span>
+                </div>
+            <ul class="ul mt-20 f-14">
+                <li class=" "><a class=""
+                    href="index.html">
+                    <i class="fa-regular fa-chart-bar fa-fw "></i> 
+                    <span class="hide-mobile"> Dashboard</span>
+                   </a>
+                   </li>
+                   <li class="">
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="hide-mobile"> All Files</span>
+                       </a>
+                    </li>
+                <li class="">
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="hide-mobile"> projects</span>
+                        </a>
+                </li>
+             
+                <li class="">
+                    <a href="settings.html" class="active">
+                        <i class="fa-solid fa-gear fa-fw active"></i>
+                        <span class="hide-mobile">  settings</span>
+                      </a>
+                </li>
+            </ul>
+        </aside>
+     
+        <div class="main-container  flex-g-1">
+            <div class="head-area d-flex flex-sb flex-ali ">
+                <div class="heading mt-15">
+                 <h1 class=" f-30">Settings</13>
+                 <p class="date t-g f-14 mt-10 t-vg">Monday,03 Octobor 2023</p>
+                </div>
+                <div class="search p-relative">
+                <input type="text" placeholder="type a key Word">
+
+                </div>
+             </div>
+
+            <div class="settings-container mt-40">
+                <div class="site p-20 bg-w r-8">
+                   <p class="f-24 fw-b">Site control</p>
+                   <p class=" t-gray mt-10 f-14">Control The Website If There Is Maintenance</p>
+                
+                   <div class="d-flex flex-sb flex-ali mt-20">
+
+                    <div class="text">
+                        <p class="f-16">Website Control</p>
+                        <p class="f-12 t-gray mt-10">Open/Close Website And Type The Reason</p>
+                    </div>
+                     <div>
+                        <label >
+                            <input type="checkbox" class="toggle-check" checked>
+                            <div class="toggle"></div></div>
+                          </label>
+                     </div>   
+                   <textarea class="r-8 mt-20 p-20"cols="30" rows="10" placeholder="Messege content"></textarea>
+
+                   </div>
+                
+          
+
+
+                <div class="general-info bg-w p-20 r-8">
+                    <p class="f-24 fw-b">General Info</p>
+                    <p class=" t-gray mt-10 f-14">General Information About Your Account</p>
+                 
+                    <form action="" class="mt-40">
+                    
+                            <label for="name" class=" d-block t-gray f-14 mt-20">First Name</label>
+                            <input type="text" id="name" class="p-10 mt-10 w-full r-8 t-gray"
+                            placeholder="First Name">
+                       
+                            <label for="lname" class=" d-block mt-15 t-gray f-14">Last Name</label>
+                            <input type="text" id="lname" class="p-10 mt-10 w-full r-8 t-gray"
+                            placeholder="Last Name">
+                      
+                            <label for="email" class=" d-block mt-15 t-gray f-14">Email</label>
+                            <div class="d-flex flex-ali flex-sb">
+                            <input type="email" id="email" disabled class=" p-10 mt-10 e-mail w-full r-8 t-gray"
+                        value="m@gmail.com">
+                        <a href="#" class=" ml-20 f-18 fx-b c-lb ">Change</a>
+                    
+                      </div>
+                        
+                    </form>
+
+
+                </div>
+
+                <div class="security p-20 bg-w r-8">
+                    <p class="f-24 fw-b ">Security Info</p>
+                    
+                <p class=" t-gray mt-10 f-14">Security Information About Your Account</p>
+                    <div class=" box d-flex flex-sb flex-ali mt-40">
+                    <div class="text">
+                        <p class="f-16">Password</p>
+                        <p class="f-12 t-gray mt-10">Last Change On 25/10/2021</p>
+                    </div>
+
+                    <a href="#" class="d-block  ml-20 f-17 fx-b c-w p-7 r-6  bg-lb">Change</a>
+                    </div>
+
+                    <div class="  box d-flex flex-sb flex-ali mt-20">
+                    <div class="text">
+                        <p class="f-16">Two-Factor Authentication</p>
+                        <p class="f-12 t-gray mt-10">Enable/Disable The Feature</p>
+                    </div>
+
+                    <div>
+                    <label >
+                        <input type="checkbox" class="toggle-check" checked>
+                        <div class="toggle"></div>
+                      </label>
+                    </div>
+
+                    </div>
+                 
+                    <div class="box d-flex flex-sb flex-ali mt-20">
+                        <div class="text">
+                            <p class="f-16">Devices</p>
+                            <p class="f-12 t-gray mt-10">Check The Login Devices List</p>
+                        </div>
+                        <a href="#" class="d-block  ml-20 f-17 fx-b  p-7 r-6  bg-lg">Devices</a>
+                    </div>
+                   
+
+                    </div>
+                 
+                
+                    <div class="social p-20 bg-w r-8">
+                        <p class="f-24 fw-b ">Social Info</p>
+                    <p class=" t-gray mt-10 f-14">Social Media Information</p>
+
+                        <div class="d-flex flex-ali r-6 mt-20">
+                            <i class="fa-brands fa-twitter center-flex t-gray txt-c"></i>
+                            <input type="text" id="" class="p-10  w-full  t-gray"
+                            placeholder="Twitter User Name">
+                        </div>
+
+                        <div class="d-flex flex-ali r-6 mt-20">
+                            <i class="fa-brands fa-facebook-f center-flex  t-gray txt-c"></i>
+                            <input type="text" id="" class="p-10  w-full  t-gray"
+                            placeholder="Facebook User Name">
+                        </div>
+
+                        <div class="d-flex flex-ali r-6 mt-20">
+                            <i class="fa-brands fa-linkedin center-flex t-gray txt-c"></i>
+                            <input type="text" id="" class="p-10  w-full  t-gray"
+                            placeholder="Linkedin User Name">
+                        </div>
+                        <div class="d-flex flex-ali r-6 mt-20">
+                            <i class="fa-brands fa-youtube center-flex t-gray txt-c"></i>
+                            <input type="text" id="" class="p-10  w-full  t-gray"
+                            placeholder="Youtube User Name">
+                        </div>
+                    
+                            </div>
+                           
+
+                            
+                         
+
+                            
+                    <div class="widgets-control p-20 bg-w r-8">
+                        <p class="f-24 fw-b ">Widgets Control</p>
+                    <p class=" t-gray mt-10 f-14">Show/Hide Widgets</p>
+
+                    <input type="checkbox" id="Quick-Draft" checked class="mt-20  ">
+                    <label for="Quick-Draft" class="f-17">Quick Draft </label>
+                   
+                    <input type="checkbox" id="Activity " checked class="mt-20 ">
+                    <label for="Activity " class="f-17"> Activity </label>
+                    
+                    <input type="checkbox" id="Ongoing Tasks" class="mt-20 ">
+                    <label for="Ongoing Tasks" class="f-17"> Ongoing Tasks</label>
+                    
+                    <input type="checkbox" id="Reminders" class="mt-20 ">
+                    <label for="Reminders" class="f-17">Reminders</label>  
+                  
+            </div> 
+
+
+            <div class="backup p-20 bg-w r-8">
+                <p class="f-24 fw-b ">Backup Manager</p>
+            <p class=" t-gray mt-10 f-14">Control Backup Time And Location</p>
+
+           <div class=" box mt-20">  
+            <input type="radio" name="time" checked id="Daily">
+            <label for="Daily" >Daily</label>
+              </div>
+              
+          
+              <div class=" box mt-20"> 
+            <input type="radio" name="time" id="Weekly">
+            <label for="Weekly">Weekly</label>
+             </div>
+
+             <div class=" box mt-20"> 
+            <input type="radio" name="time" id="Monthly">
+            <label for="Monthly">Monthly</label>
+            </div>
+
+            <div class="server d-flex p-20 mt-20">
+
+                <input type="radio" name="server" id="mega">
+                <label for="mega" class=" r-8 p-20">Mega</label>
+
+                <input type="radio" name="server" checked id="super">
+                <label for="super" class="r-8 p-20">Super</label>
+
+                <input type="radio" name="server" id="mini">
+                <label for="mini" class=" r-8 p-20">Mini</label>
+
+            </div>
+            </div>
+            <!-- end of settings container  -->
+            </div>
+
+            </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
